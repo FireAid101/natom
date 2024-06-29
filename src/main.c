@@ -1,7 +1,7 @@
 #include <application.h>
 #include <string.h>
 
-#define ctrl(x)           ((x) & 0x1f)
+#define ctrl(x) ((x) & 0x1f)
 
 int main(int argc, char **argv) {
 	init_program();
